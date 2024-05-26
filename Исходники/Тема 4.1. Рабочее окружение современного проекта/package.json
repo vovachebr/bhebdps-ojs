@@ -1,0 +1,27 @@
+{
+  "name": "any-project-name",
+  "version": "1.0.0",
+  "description": "бла бла бла",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server src",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "build": "babel src -d dist"
+  },
+  "author": "mr and mrs smith",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.24.7",
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "@eslint/js": "^9.4.0",
+    "eslint": "^9.4.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "globals": "^15.4.0",
+    "live-server": "^1.2.2"
+  },
+  "dependencies": {
+    "core-js": "^3.37.1"
+  }
+}
