@@ -7,7 +7,7 @@ describe("About Operators (about_operators.js)", function() {
       result = result + i;
     }
     // What is the value of result?
-    expect(FILL_ME_IN).toBe(result);
+    expect(15).toBe(result);
   });
 
   it("assignment addition", function() {
@@ -17,7 +17,7 @@ describe("About Operators (about_operators.js)", function() {
       result += i;
     }
     // What is the value of result?
-    expect(FILL_ME_IN).toBe(result);
+    expect(15).toBe(result);
   });
 
   it("subtraction", function() {
@@ -26,7 +26,7 @@ describe("About Operators (about_operators.js)", function() {
       result = result - i;
     }
     // What is the value of result?
-    expect(FILL_ME_IN).toBe(result);
+    expect(2).toBe(result);
   });
 
   it("assignment subtraction", function() {
@@ -35,7 +35,7 @@ describe("About Operators (about_operators.js)", function() {
       result -= i;
     }
     // What is the value of result?
-    expect(FILL_ME_IN).toBe(result);
+    expect(2).toBe(result);
   });
 
   //Assignment operators are available for multiplication and division as well
@@ -47,17 +47,17 @@ describe("About Operators (about_operators.js)", function() {
     //again this is exactly the same as result = result % x
     result %= x;
     // What is the value of result?
-    expect(FILL_ME_IN).toBe(result);
+    expect(0).toBe(result);
   });
 
   it("typeof", function() {
     // what is the type of an empty object?
-    expect(FILL_ME_IN).toBe(typeof({}));
+    expect('object').toBe(typeof({}));
     // what is the type of a string?
-    expect(FILL_ME_IN).toBe(typeof('apple'));
+    expect('string').toBe(typeof('apple'));
     // what is the type of -5?
-    expect(FILL_ME_IN).toBe(typeof(-5));
+    expect('number').toBe(typeof(-5));
     // what is the type of false?
-    expect(FILL_ME_IN).toBe(typeof(false));
+    expect('boolean').toBe(typeof(false));
   });
 });
