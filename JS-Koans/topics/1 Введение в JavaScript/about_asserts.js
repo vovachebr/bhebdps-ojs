@@ -1,7 +1,7 @@
 describe("About Asserts (about_asserts.js)", function() {
   it('should expect true', function() {
     // Ваше путешествие начинается здесь: Замените значение false на true 
-    expect(false).toBe(true);
+    expect(true).toBe(true);
   });
 
   // Чтобы понять результат теста, мы должны сравнить ожидаемое значение с реальным.
@@ -23,7 +23,7 @@ describe("About Asserts (about_asserts.js)", function() {
 
   // Иногда нужно быть точным в том, что вы "печатаете".
   it('should assert equality with ===', function() {
-    let expectedValue = FILL_ME_IN;
+    let expectedValue = FILL_ME_IN.toString();
     let actualValue = (1 + 1).toString();
 
   // toBe() всегда использует строе равенство (===).
